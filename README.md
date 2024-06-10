@@ -7,7 +7,7 @@ It can also be easily modified to work with Nest.js applications.
 
 
 
-#### Description
+### Description
 
 The paginator activates on detection of two request query variables namely:
 
@@ -31,7 +31,7 @@ The paginator:
 
 
 
-#### How to include the paginator in your project
+### How to include the paginator in your project
 
 Copy the `paginator.js` file from this project's `app/middleware` folder into your own destination folder e.g. `middlewares/paginator.js` and include like tihis:
 
@@ -60,9 +60,11 @@ const port = 4000
 app.listen(port, () => console.log(`App listening on ${port}`))
 ```
 
-### 
 
-#### The Paginator
+
+ 
+
+### The Paginator
 
 ```js
 const url = require('url');
@@ -128,9 +130,13 @@ module.exports = () => {
 
 
 
+
+
 ### Demo
 
 [Check out the demo on Vercel](https://express-data-paginator.vercel.app/)
+
+
 
 
 
@@ -140,9 +146,9 @@ Syntaxe-express is a middleware based on the syntaxe declarative data fetching e
 
 You can find out more about it [here](https://github.com/SyntaxeQL/syntaxe-express). 
 
-### 
 
-### 
+
+
 
 ### Endpoints
 
@@ -158,11 +164,11 @@ The following endpoints are available in the application on Vercel.
 
 - [Countries, States & Cities (Page 5 / 5 records per page)](https://syntaxe-express.vercel.app/api/countries-states-cities?pageNumber=5&pageLimit=5)
 
-### 
 
 
 
-### Request Example
+
+### Sample Request
 
 ```js
 // Return page 1 with each page containing 10 records
