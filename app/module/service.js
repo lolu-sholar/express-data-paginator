@@ -1,5 +1,3 @@
-const fs = require('fs/promises')
-const path = require('path')
 const { appUsers, githubUsers, countries, countriesStates, countriesStatesCities } = require('../../data')
 
 class AppService {
