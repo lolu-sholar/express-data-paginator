@@ -154,15 +154,15 @@ You can find out more about it [here](https://github.com/SyntaxeQL/syntaxe-expre
 
 The following endpoints are available in the application on Vercel.
 
-- [App Users (Page 1 / 10 records per page)](https://syntaxe-express.vercel.app/api/app-users?pageNumber=1&pageLimit=10)
+- [App Users (Page 1 / 10 records per page)](https://express-data-paginator.vercel.app/api/app-users?pageNumber=1&pageLimit=10)
 
-- [GitHub Users (Page 1 / 5 records per page)](https://syntaxe-express.vercel.app/api/github-users?pageNumber=1&pageLimit=5)
+- [GitHub Users (Page 1 / 5 records per page)](https://express-data-paginator.vercel.app/api/github-users?pageNumber=1&pageLimit=5)
 
-- [Countries (Page 3 / 5 records per page)](https://syntaxe-express.vercel.app/api/countries?pageNumber=3&pageLimit=5)
+- [Countries (Page 3 / 5 records per page)](https://express-data-paginator.vercel.app/api/countries?pageNumber=3&pageLimit=5)
 
-- [Countries & States (Page 2 / 4 records per page)](https://syntaxe-express.vercel.app/api/countries-states?pageNumber=2&pageLimit=4)
+- [Countries & States (Page 2 / 4 records per page)](https://express-data-paginator.vercel.app/api/countries-states?pageNumber=2&pageLimit=4)
 
-- [Countries, States & Cities (Page 5 / 5 records per page)](https://syntaxe-express.vercel.app/api/countries-states-cities?pageNumber=5&pageLimit=5)
+- [Countries, States & Cities (Page 5 / 5 records per page)](https://express-data-paginator.vercel.app/api/countries-states-cities?pageNumber=5&pageLimit=5)
 
 
 
