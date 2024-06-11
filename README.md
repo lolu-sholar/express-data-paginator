@@ -38,7 +38,7 @@ Copy the `paginator.js` file from this project's `app/middleware` folder into yo
 ```js
 const express = require('express')
 const SyntaxeIO = require('syntaxe-express')
-const router = require('./app/router')
+const router = require('./app/module/router')
 
 const paginator = require('./middlewares/paginator')
 
