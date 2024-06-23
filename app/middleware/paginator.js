@@ -39,6 +39,7 @@ module.exports = () => {
 
 			  		// Adjust response result
 			  		const finalForm = {
+			  			...responseObject,
 			  			data: dataObject.slice(start, end),
 			  			pages: Math.ceil(dataObject.length / pageInfo.limit)
 			  		}
